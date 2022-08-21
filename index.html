@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>回覧（鏡）</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="notPrintArea" class="layout-not-print-area">
+        <div id="tabArea" class="layout-tab-area font-tab">
+            <span id="tabAllGroup" class="tab-is-active">AllGroup</span>
+            <span id="tabGroup1" class="">Group1</span>
+            <span id="tabGroup2" class="">Group2</span>
+            <span id="tabGroup3" class="">Group3</span>
+        </div>
+        <div class="layout-btn-area">
+            <button id="btnPrint" class="font-btn layout-btn">印刷</button>
+        </div>
+    </div>
+    <div id="printArea">
+        <div id="titleArea" class="layout-title-area font-title">
+            <h1 id="title" class="title-is-active">
+                Title
+            </h1>
+            <p class="font-msg layout-msg">
+                （令&nbsp;&emsp;年&nbsp;&emsp;月&nbsp;&emsp;日）
+            </p>
+            <p class="font-msg layout-msg">
+                最終（&emsp;&emsp;&emsp;&emsp;）まで。
+            </p>
+        </div>
+        <div id="contentsArea" class="layout-contents-area">
+            <table id="tableGroup" class="font-table layout-table">
+                <tr id="trHeadGroup1">
+                    <th>A</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                    <th>F</th>
+                    <th>G</th>
+                    <th>H</th>
+                </tr>
+                <tr id="trBodyGroup1">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr id="trHeadGroup2">
+                    <th>I</th>
+                    <th>J</th>
+                    <th>K</th>
+                    <th>L</th>
+                    <th>M</th>
+                    <th>N</th>
+                    <th>O</th>
+                    <th>P</th>
+                </tr>
+                <tr id="trBodyGroup2">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+                <tr id="trHeadGroup3">
+                    <th>Q</th>
+                    <th>R</th>
+                    <th>S</th>
+                    <th>T</th>
+                    <th>U</th>
+                    <th>V</th>
+                    <th>W</th>
+                    <th>X</th>
+                </tr>
+                <tr id="trBodyGroup3">
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div id="printAreaClone">
+    </div>
+    <noscript>
+        <p>JavaScriptが無効になっています。ブラウザの設定を変更してください。</p>
+    </noscript>
+    <script src="./script.js"></script>
+</body>
+
+</html>
